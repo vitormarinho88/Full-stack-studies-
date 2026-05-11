@@ -1,0 +1,147 @@
+* {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+header {
+   margin-top: 47px;
+   margin-left: 42px;
+}
+
+.link-header {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   color: #17233D;
+   cursor: pointer;
+   margin-right: 32px;
+   letter-spacing: 0.875px;
+   text-align: center;
+
+}
+
+.button-header {
+   background: #6FBF44;
+   border: 1px solid #4cb538;
+   border-radius: 6px;
+   width: 124px;
+   height: 51px;
+   cursor: pointer;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   letter-spacing: 1px;
+   color: white;
+}
+
+
+img {
+   margin: 163px 0 0 123px;
+   display: inline-block;
+}
+
+section {
+   display: inline-block;
+   margin-left: 86px;
+   width: 493px;
+}
+
+h1 {
+   font-weight: 700;
+   font-size: 62px;
+   line-height: 82px;
+   color: #161A49;
+   letter-spacing: 0.596154px;
+}
+
+p {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 33px;
+   color: #4B505A;
+   letter-spacing: 0.5px;
+   margin-top: 47px;
+   margin-bottom: 55px;
+}
+
+.button-main {
+
+   font-weight: 500;
+   line-height: 27px;
+   font-size: 18px;
+   color: #6FBF44;
+   cursor: pointer;
+   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 500px) {
+
+   .link-header {
+      display: none;
+   }
+
+   .button-header {
+      width: 91px;
+      height: 31px;
+      font-size: 15px;
+      margin-left: 300px;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: 1px;
+
+   }
+
+
+   h1 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 30px;
+      letter-spacing: 0.6px;
+      text-align: center;
+      width: 278px;
+      height: 60px;
+      margin-top: 50px;
+   }
+
+   p {
+      width: 304px;
+      height: 165px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+      text-align: center;
+      margin-top: 30px;
+   }
+
+   .button-main {
+      width: 112px;
+      height: 27px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 100%;
+      letter-spacing: 1px;
+      margin-left: 90px;
+
+   
+   }
+
+
+
+   img {
+      width: 350px;
+      height: 350px;
+      margin-bottom: -780px;
+      margin-left: 60px;
+   
+   }
+
+
+
+
+
+
+}
