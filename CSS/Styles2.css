@@ -1,0 +1,35 @@
+.vo {
+    font-size: 100px;
+}
+
+.pai {
+    width: 70vw;
+    height: 70vh;
+    background: rgba(2, 1, 39, 0.927);
+    color: white;
+    font-size: 60px;
+}
+
+.filho {
+    width: 50%;
+    height: 50%;
+    background: rgb(204, 0, 255);
+    color: white;
+    font-size: 3rem;
+}
+
+
+/* UNIDADES DE MEDIDAS
+   -> ABSOLUTAS
+   PX (PIXELS)
+   IN (INCHES/POLEGADAS)
+   CM / MM (CENTIMETRO / MILIMETRO)
+
+   -> RELATIVAS 
+      % CALCULO TAMANHO RELATIVO AO ELEMENTO PAI
+      VW (VIEW WIDHT) 1VW É 1% DA LARGURA DA JANELA DO NAVEGADOR
+      VH (VIEW HEIGHT) 1VH É 1% DA ALTURA DA JANELA DO NAVEGADOR
+      EM É UMA UNIDADE RELATIVA AO ELEMENTO PAI
+      REM É UMA UNIDADE RELATIVA AO ELEMENTO RAIZ 
+      *HTML SEMPRE VAI SER O ELEMENT ROOT OU BODY
+/*     
