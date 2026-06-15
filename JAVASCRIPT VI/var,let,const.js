@@ -1,16 +1,16 @@
 //VAR -> Utilização atualmente bem escassa, mais utilizada antigamente
 //CONST -> VARIAVEL CONSTANTE, NAO SE ALTERA O VALOR. 
 
-const myConst = "Hei"
+
 let myLet = "Olá"
 var myVar = "Hello"
 
 if (true) {
    
     const myConst = "Hei"
-
+    console.log(myConst)
 }
-console.log(myConst)//VAI DA ERRO 
+
 
 
 //CONST NAO PODE ATRIBUIR UM NOVO VALOR PARA A VARIAVEL CONST, MAS PODE TROCAR VALORES DAS PROPRIEDAS INTERNAS DA VARIEVAL
@@ -19,7 +19,7 @@ name.name = "Marinho"
 console.log(name)
 
 
-//EX
+//EX COM LET
 let shai = {player:"Alexander"}
 shai.name = "OKC"
 console.log(shai)
