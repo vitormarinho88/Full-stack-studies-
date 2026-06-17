@@ -14,11 +14,6 @@ Escopo:
 */
 
 
-
-
-
-
-
 const name = "vitor" //ESCOPO GLOBAL -> Referencia ao module.exports
 
 const person = {  // ESCOPO LOCAL , se chamar o this  nessa função com objeto. Ele faz referencia do proprio objeto
