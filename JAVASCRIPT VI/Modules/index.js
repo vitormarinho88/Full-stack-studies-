@@ -1,6 +1,6 @@
 //const sum = require('./sum')
 //const multi = require('./multi')
-const {person, sum} = require('./objects')
+const {person, sum , multi} = require('./objects')
 
 //console.log(sum(9,3))
 //console.log(multi(5,6))
@@ -11,3 +11,4 @@ const {person, sum} = require('./objects')
 
 console.log(person)
 console.log(sum(9,8))
+console.log(multi(10,90))

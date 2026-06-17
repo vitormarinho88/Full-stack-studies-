@@ -18,3 +18,4 @@ const person  =  {
 
 this.person = person
 this.sum = sum
+this.multi = multi
